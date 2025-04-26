@@ -3,60 +3,59 @@
 # LAB Java | Intro to Spring Boot
 
 ## Rutas Implementadas
-
 ### 1. **Get all doctors**
-   - **Ruta**: `/doctors`
-   - **Descripción**: Crea una ruta para obtener todos los médicos.
-   - **Imagen**:
-   ![Get all doctors](src/main/resources/images/Image.01.19.png)
+- **Ruta**: `/doctors`
+- **Descripción**: Crea una ruta para obtener todos los médicos.
+- **Imagen**:  
+<img src="src/main/resources/images/Image.01.19.png" alt="Get all doctors" width="400"/>
 
 ### 2. **Get doctor by ID**
-   - **Ruta**: `/doctors/{id}`
-   - **Descripción**: Crea una ruta para obtener un médico a partir de su `employee_id`.
-   - **Imagen**:
-   ![Get doctor by ID](src/main/resources/images/Image.59.53.png)
+- **Ruta**: `/doctors/{id}`
+- **Descripción**: Crea una ruta para obtener un médico a partir de su `employee_id`.
+- **Imagen**:  
+<img src="src/main/resources/images/Image.59.53.png" alt="Get doctor by ID" width="400"/>
 
 ### 3. **Get doctors by status**
-   - **Ruta**: `/doctors/status/{status}`
-   - **Descripción**: Crea una ruta para obtener médicos según su estado (`status` puede ser ON_CALL, ON, OFF, etc.).
-   - **Imagen**:
-   ![Get doctors by status](src/main/resources/images/Image.03.28.png)
+- **Ruta**: `/doctors/status/{status}`
+- **Descripción**: Crea una ruta para obtener médicos según su estado (`status` puede ser ON_CALL, ON, OFF, etc.).
+- **Imagen**:  
+<img src="src/main/resources/images/Image.03.28.png" alt="Get doctors by status" width="400"/>
 
 ### 4. **Get doctors by department**
-   - **Ruta**: `/doctors/department/{department}`
-   - **Descripción**: Crea una ruta para obtener médicos que pertenecen a un departamento específico (por ejemplo, "cardiology").
-   - **Imagen**:
-   ![Get doctors by department](src/main/resources/images/Image.03.57.png)
+- **Ruta**: `/doctors/department/{department}`
+- **Descripción**: Crea una ruta para obtener médicos que pertenecen a un departamento específico (por ejemplo, "cardiology").
+- **Imagen**:  
+<img src="src/main/resources/images/Image.03.57.png" alt="Get doctors by department" width="400"/>
 
 ### 5. **Get all patients**
-   - **Ruta**: `/patients`
-   - **Descripción**: Crea una ruta para obtener todos los pacientes registrados en el sistema.
-   - **Imagen**:
-   ![Get all patients](src/main/resources/images/Image.12.05.png)
+- **Ruta**: `/patients`
+- **Descripción**: Crea una ruta para obtener todos los pacientes registrados en el sistema.
+- **Imagen**:  
+<img src="src/main/resources/images/Image.12.05.png" alt="Get all patients" width="400"/>
 
 ### 6. **Get patient by ID**
-   - **Ruta**: `/patients/{id}`
-   - **Descripción**: Crea una ruta para obtener un paciente a partir de su `id`.
-   - **Imagen**:
-   ![Get patient by ID](src/main/resources/images/Image.16.52.png)
+- **Ruta**: `/patients/{id}`
+- **Descripción**: Crea una ruta para obtener un paciente a partir de su `id`.
+- **Imagen**:  
+<img src="src/main/resources/images/Image.16.52.png" alt="Get patient by ID" width="400"/>
 
 ### 7. **Get patients by date of birth range**
-   - **Ruta**: `/patients/dateOfBirth/{start}/{end}`
-   - **Descripción**: Crea una ruta para obtener pacientes cuyo rango de fecha de nacimiento esté dentro de un rango especificado.
-   - **Imagen**:
-   ![Get patients by date of birth range](src/main/resources/images/Image.26.31.png)
+- **Ruta**: `/patients/dateOfBirth/{start}/{end}`
+- **Descripción**: Crea una ruta para obtener pacientes cuyo rango de fecha de nacimiento esté dentro de un rango especificado.
+- **Imagen**:  
+<img src="src/main/resources/images/Image.26.31.png" alt="Get patients by date of birth range" width="400"/>
 
 ### 8. **Get patients by admitting doctor's department**
-   - **Ruta**: `/patients/admittedBy/department/{department}`
-   - **Descripción**: Crea una ruta para obtener pacientes que fueron admitidos por un médico cuyo departamento sea el indicado (por ejemplo, "Cardiología").
-   - **Imagen**:
-   ![Get patients by admitting doctor's department](src/main/resources/images/Image.30.19.png)
+- **Ruta**: `/patients/admittedBy/department/{department}`
+- **Descripción**: Crea una ruta para obtener pacientes que fueron admitidos por un médico cuyo departamento sea el indicado (por ejemplo, "Cardiología").
+- **Imagen**:  
+<img src="src/main/resources/images/Image.30.19.png" alt="Get patients by admitting doctor's department" width="400"/>
 
 ### 9. **Get all patients with a doctor whose status is OFF**
-   - **Ruta**: `/admittedBy/statusOff`
-   - **Descripción**: Crea una ruta para obtener todos los pacientes cuyo médico tiene el estado "OFF".
-   - **Imagen**:
-   ![Get all patients with a doctor whose status is OFF](src/main/resources/images/Image.35.11.png)
+- **Ruta**: `/admittedBy/statusOff`
+- **Descripción**: Crea una ruta para obtener todos los pacientes cuyo médico tiene el estado "OFF".
+- **Imagen**:  
+<img src="src/main/resources/images/Image.35.11.png" alt="Get all patients with a doctor whose status is OFF" width="400"/>
 
 ## Introduction
 
